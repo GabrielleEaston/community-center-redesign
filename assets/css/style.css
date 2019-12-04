@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Rubik&display=swap');
+
+h1,
+h2,
+h5 {
+    font-family: "Rubik", sans-serif;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
 .hero {
     background-image: url(../img/matthieu-comoy-w2fTKLN3CJU-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     opacity: 0.9;
     /*    height: calc(100vh - 150px);*/
+}
+
+.hero p {
+    font-size: 1.5rem;
 }
 
 #hide {
