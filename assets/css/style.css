@@ -14,8 +14,11 @@ p {
     background-image: url(../img/matthieu-comoy-w2fTKLN3CJU-unsplash.jpg);
     background-size: cover;
     background-position: center center;
-    opacity: 0.9;
-    /*    height: calc(100vh - 150px);*/
+
+}
+
+.hero .container {
+    background-color: #2f2a2596;
 }
 
 .hero p {
@@ -68,6 +71,10 @@ p {
     padding-bottom: 10px;
 
 
+}
+
+.card-text {
+    text-align: left;
 }
 
 
